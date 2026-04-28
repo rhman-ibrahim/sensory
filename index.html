@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensory | Dynamic Color Theme Experience</title>
+    <!-- Base -->
+    <meta name="author" content="Rhman">
+    <meta name="title" content="Sensory | Dynamic Color Theme Experience">
+    <meta name="description" content="A visual interface experiment powered by CSS color-mix. Explore dynamic themes, interactive color systems, and real-time visual transformations.">
+    <meta name="keywords" content="CSS color-mix, theme generator, dynamic UI, color system, design tools, interactive colors, HSL alternative, frontend experiment, visual design system">
+    <!-- Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="manifest" href="./site.webmanifest">
+    <meta name="robots" content="index, follow">
+    <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website">
+    <meta property="article:author" content="https://rhman.netlify.app/#contact">
+    <meta property="og:title" content="Sensory | Dynamic Color Theme Experience">
+    <meta property="og:description" content="An interactive design system powered by CSS color-mix. Generate and explore dynamic UI themes in real time.">
+    <meta property="og:site_name" content="Sensory">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://URL/assets/OG.png">
+    <meta property="og:image:alt" content="Sensory dynamic color theme preview">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- TWITTER -->
+    <meta name="twitter:creator" content="@Rhman_Al_Warraq">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Sensory | Dynamic Color Theme Experience">
+    <meta property="twitter:description" content="A CSS-powered theme generator using color-mix for real-time visual design experimentation.">
+    <meta property="twitter:image" content="https://URL/assets/OG.png">
+    <meta property="twitter:image:alt" content="Sensory dynamic color theme preview">
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Sensory",
+        "url": "",
+        "description": "A frontend experiment exploring dynamic UI themes using CSS color-mix and real-time color transformations.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Rhman",
+            "url": "https://rhman.netlify.app/#contact"
+        }
+    }
+    </script>
+    <link rel="author" href="https://rhman.netlify.app/#contact">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/OG.png" alt="Sensory">
+        <div>
+            <h1>Sensory</h1>
+            <p>A visual interface experiment powered by CSS color-mix. Explore dynamic themes, interactive color systems, and real-time visual transformations.</p>
+        </div>
+    </header>
+    <main id="grid">
+        <div class="card">
+            <strong class="label">
+                <span>Black</span>
+                <small>100%</small>
+            </strong>
+        </div>
+        <div class="card">
+            <strong class="label">
+                <span>Black</span>
+                <small>75%</small>
+            </strong>
+        </div>
+        <div class="card">
+            <strong class="label">
+                <span>Black</span>
+                <small>50%</small>
+            </strong>
+        </div>
+        <div class="card">
+            <strong class="label">
+                <span>Black</span>
+                <small>25%</small>
+            </strong>
+        </div>
+        <div class="card">
+            <form id="theme-form">
+                <input type="text" name="color" id="theme-color-input" placeholder="Color"/>
+                <button type="submit" id="theme-color-button">Color!</button>
+            </form>
+        </div>
+        <div class="card">
+            <strong class="label">
+                <span>White</span>
+                <small>25%</small>
+            </strong>
+        </div>
+        <div class="card">
+            <strong class="label">
+                <span>White</span>
+                <small>50%</small>
+            </strong>
+        </div>
+        <div class="card">
+            <strong class="label">
+                <span>White</span>
+                <small>75%</small>
+            </strong>
+        </div>
+        <div class="card">
+            <strong class="label">
+                <span>White</span>
+                <small>100%</small>
+            </strong>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
