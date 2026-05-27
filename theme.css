@@ -1,0 +1,221 @@
+/*
+    http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Theme */
+
+:root {
+    
+    /* Theme */
+
+    --th: #999999;
+
+    /* Light Mode: Lightest to Darkest 4 */
+
+    --l-th-1: color-mix(in srgb, var(--th), white 90%);
+    --l-th-2: color-mix(in srgb, var(--th), white 60%);
+    --l-th-3: color-mix(in srgb, var(--th), white 30%);
+    --l-th-4: color-mix(in srgb, var(--th), white 15%);
+    
+    /* Dark Mode: Darkest 1 to Lightest 4 */
+    
+    --d-th-1: color-mix(in srgb, var(--th), black 90%);
+    --d-th-2: color-mix(in srgb, var(--th), black 60%);
+    --d-th-3: color-mix(in srgb, var(--th), black 30%);
+    --d-th-4: color-mix(in srgb, var(--th), black 15%);
+
+    /* Danger */
+
+    --dn-1: #d64242;
+    --dn-2: #e27b7b;
+  
+    /* Warning */
+
+    --wr-1: #fa9f47;
+    --wr-2: #fcbc7e;
+  
+    /* Info */
+    
+    --in-1: #0090e0;
+    --in-2: #4db1e9;
+  
+    /* Success */
+
+    --su-1: #34c240;
+    --su-2: #71d479;
+
+    /* Sets the font size will be 100% of the browser’s default font size,
+        it's usually 16px unless the user changed it in their settings.
+    */
+
+    font-size: 100%;
+
+}
+
+[data-theme=light] {
+
+  /* Primary (Light) */
+
+  --pr-1: var(--l-th-1);
+  --pr-2: var(--l-th-2);
+  --pr-3: var(--l-th-3);
+  --pr-4: var(--l-th-4);
+
+  /*  Secondary */
+
+  --sc-1: var(--d-th-1);
+  --sc-2: var(--d-th-2);
+  --sc-3: var(--d-th-3);
+  --sc-4: var(--d-th-4);
+
+}
+
+[data-theme=dark] {
+
+  /* Primary (Dark) */
+
+  --pr-1: var(--d-th-1);
+  --pr-2: var(--d-th-2);
+  --pr-3: var(--d-th-3);
+  --pr-4: var(--d-th-4);
+  
+  /*  Secondary */
+
+  --sc-1: var(--l-th-1);
+  --sc-2: var(--l-th-2);
+  --sc-3: var(--l-th-3);
+  --sc-4: var(--l-th-4);
+
+}
+
+@supports (color: contrast-color(black, white, 50%)) {
+
+    :root {
+        --tp-1: contrast-color(var(--pr-1), black, white, 50%);
+        --tp-2: contrast-color(var(--pr-2), black, white, 50%);
+        --tp-3: contrast-color(var(--pr-3), black, white, 50%);
+        --tp-4: contrast-color(var(--pr-4), black, white, 50%);
+        --ts-1: contrast-color(var(--sc-1), black, white, 50%);
+        --ts-2: contrast-color(var(--sc-2), black, white, 50%);
+        --ts-3: contrast-color(var(--sc-3), black, white, 50%);
+        --ts-4: contrast-color(var(--sc-4), black, white, 50%);
+        --td-0: contrast-color(var(--dn-1), white, black, 50%);
+        --tw-0: contrast-color(var(--wr-1), black, white, 50%);
+        --ti-0: contrast-color(var(--in-1), white, black, 50%);
+        --ts-0: contrast-color(var(--su-1), black, white, 50%);
+    }
+
+}
+
+@supports not (color: contrast-color(black, white, 50%)) {
+
+    
+    [data-theme=light] {
+        
+        --tp-1: #000000;
+        --tp-2: #000000;
+        --tp-3: #000000;
+        --tp-4: #000000;
+        --ts-1: #000000;
+        --ts-2: #000000;
+        --ts-3: #000000;
+        --ts-4: #000000;
+        --td-0: #ffffff;
+        --tw-0: #000000;
+        --ti-0: #ffffff;
+        --ts-0: #000000;
+    }
+    
+    [data-theme=dark] {
+
+        --tp-1: #ffffff; 
+        --tp-2: #ffffff;
+        --tp-3: #ffffff;
+        --tp-4: #000000;
+        --ts-1: #ffffff;
+        --ts-2: #ffffff;
+        --ts-3: #ffffff;
+        --ts-4: #000000;
+        --td-0: #ffffff;
+        --tw-0: #000000;
+        --ti-0: #ffffff;
+        --ts-0: #000000;
+    }
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: var(--pr-1);
+  color: var(--tp-1);
+}
+
+button, input, output, select, textarea, a {
+  font-size: 1rem;
+  font-family: inherit;
+  text-decoration: none;
+  color: var(--tp-1);
+}
+
+button {
+  cursor: pointer;
+  background: unset;
+  border: unset;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
