@@ -115,6 +115,12 @@ table {
   --sc-2: var(--d-th-2);
   --sc-3: var(--d-th-3);
   --sc-4: var(--d-th-4);
+  
+  /* Light mode shadow - tinted with theme color */
+	
+  --l-ts-0: rgba(0, 0, 0, 0.24);
+  --l-ts-1: color-mix(in srgb, var(--l-ts-0), var(--th) 15%);
+  --pr-0: 0px 3px 8px var(--l-ts-1);
 
 }
 
@@ -133,6 +139,12 @@ table {
   --sc-2: var(--l-th-2);
   --sc-3: var(--l-th-3);
   --sc-4: var(--l-th-4);
+
+   /* Dark mode shadow - tinted with theme color */
+   
+   --d-ts-0: color-mix(in srgb, rgba(255, 255, 255, 0.12), var(--th) 20%);
+   --d-ts-1: color-mix(in srgb, rgba(255, 255, 255, 0.08), var(--th) 20%);
+   --pr-0: 0 1px 3px var(--d-ts-0), 0 4px 12px var(--d-ts-1);
 
 }
 
