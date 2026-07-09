@@ -4,6 +4,7 @@ A lightweight frontend experiment centered on dynamic UI theming with modern CSS
 
 > ⚠️ This project is mainly intended for experimenting with AWS services (such as S3 static hosting and CloudFront) and understanding deployment workflows.
 
+[Sensory on AWS](http://rhman-sensory-site-001.s3-website-us-east-1.amazonaws.com/)
 ---
 
 ## HTML
