@@ -1,0 +1,40 @@
+name: Deploy Static Assets to AWS S3
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Sync directories to S3
+        run: |
+          S3_BUCKET="s3://rhman-sensory-site-001"
+          CACHE_HEADER="public, max-age=31536000, immutable"
+
+          aws s3 sync ./CSS $S3_BUCKET/CSS --cache-control "$CACHE_HEADER"
+          aws s3 sync ./Favicon $S3_BUCKET/Favicon --cache-control "$CACHE_HEADER"
+          aws s3 sync ./fonts $S3_BUCKET/fonts --cache-control "$CACHE_HEADER"
+          aws s3 sync ./Logo $S3_BUCKET/Logo --cache-control "$CACHE_HEADER"
+          aws s3 sync ./OG $S3_BUCKET/OG --cache-control "$CACHE_HEADER"
+      
+      - name: Invalidate CloudFront Cache
+        run: |
+          DISTRIBUTION_ID="E16RYKKI5UO1WO"
+          aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/*"
