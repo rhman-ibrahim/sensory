@@ -1,0 +1,137 @@
+/*!
+ * Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2025 Fonticons, Inc.
+*/
+
+@font-face {
+  font-family: "Font Awesome 7 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/fonts/Fontawesome/fa-brands-400.woff2");
+  font-display: swap;
+}
+
+.fa-solid,
+.fa-regular,
+.fa-brands,
+.fa-classic,
+.fas,
+.far,
+.fab,
+.fa {
+  --_fa-family: var(--fa-family, var(--fa-style-family, "Font Awesome 7 Brands"));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: var(--fa-display, inline-block);
+  font-family: var(--_fa-family);
+  font-feature-settings: normal;
+  font-style: normal;
+  font-synthesis: none;
+  font-variant: normal;
+  font-weight: var(--fa-style, 900);
+  line-height: 1;
+  text-align: center;
+  text-rendering: auto;
+  width: var(--fa-width, 1.25em);
+}
+
+:is(.fas,
+.far,
+.fab,
+.fa-solid,
+.fa-regular,
+.fa-brands,
+.fa-classic,
+.fa)::before {
+  content: var(--fa)/"";
+}
+
+.fab,
+.fa-brands,
+.fa-classic.fa-brands {
+  --fa-family: var(--fa-family-brands);
+  --fa-style: 400;
+}
+
+.fa-discord {
+  --fa: "\f392";
+}
+
+.fa-facebook-f {
+  --fa: "\f39e";
+}
+
+.fa-facebook-messenger {
+  --fa: "\f39f";
+}
+
+.fa-hashnode {
+  --fa: "\e499";
+}
+
+.fa-stack-overflow {
+  --fa: "\f16c";
+}
+
+.fa-instagram {
+  --fa: "\f16d";
+}
+
+.fa-linkedin {
+  --fa: "\f08c";
+}
+
+.fa-medium {
+  --fa: "\f23a";
+}
+
+.fa-reddit {
+  --fa: "\f1a1";
+}
+
+.fa-telegram {
+  --fa: "\f2c6";
+}
+
+.fa-threads {
+  --fa: "\e618";
+}
+
+.fa-tiktok {
+  --fa: "\e07b";
+}
+
+.fa-whatsapp {
+  --fa: "\f232";
+}
+
+.fa-x-twitter {
+  --fa: "\e61b";
+}
+
+.fa-github {
+  --fa: "\f09b";
+}
+
+.fa-unsplash {
+  --fa: "\e07c";
+}
+
+.fa-message {
+  --fa: "\f27a";
+}
+
+@supports not (content: ""/"") {
+  :is(.fas,
+  .far,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-brands,
+  .fa-classic,
+  .fa)::before {
+    content: var(--fa);
+  }
+}

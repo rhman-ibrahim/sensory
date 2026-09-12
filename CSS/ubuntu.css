@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/ubuntu-latin-300-italic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/ubuntu-latin-300-normal.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/ubuntu-latin-400-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/ubuntu-latin-400-normal.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/ubuntu-latin-500-italic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/ubuntu-latin-500-normal.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/ubuntu-latin-700-italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/ubuntu-latin-700-normal.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Style */
+
+[data-font-style="NR"] {
+  font-style: normal;
+}
+
+[data-font-style="IT"] {
+  font-style: italic;
+}
+
+/* Weight */
+
+[data-font-weight="300"]  {
+  font-weight: 300;
+}
+
+[data-font-weight="400"] {
+  font-weight: 400;
+}
+
+[data-font-weight="500"] {
+  font-weight: 500;
+}
+
+[data-font-weight="700"] {
+  font-weight: 700;
+}
+
+/* Size */
+
+[data-font-size="XS"] {
+  font-size: clamp(0.75rem, 0.73rem + 0.1vw, 0.8rem);
+}
+
+[data-font-size="SM"] {
+  font-size: clamp(0.875rem, 0.84rem + 0.15vw, 0.95rem);
+}
+
+[data-font-size="RG"] {
+  font-size: clamp(1rem, 0.97rem + 0.2vw, 1.1rem);
+}
+
+[data-font-size="LG"] {
+  font-size: clamp(1.125rem, 1.05rem + 0.4vw, 1.3rem);
+}
+
+[data-font-size="XL"] {
+  font-size: clamp(1.4rem, 1.2rem + 0.8vw, 1.8rem);
+}
+
+[data-font-size="XX"] {
+  font-size: clamp(2rem, 1.5rem + 2vw, 3.5rem);
+}
+
+/* Setting */
+
+html,
+body,
+a,
+button,
+input,
+textarea {
+  font-style: normal;
+  font-family: "Ubuntu";
+  font-size: clamp(1rem, 0.97rem + 0.2vw, 1.1rem);
+  font-weight: 300;
+}
