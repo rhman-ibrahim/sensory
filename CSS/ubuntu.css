@@ -116,6 +116,50 @@
   font-size: clamp(2rem, 1.5rem + 2vw, 3.5rem);
 }
 
+/* Transform */
+
+[data-transform=none] {
+  text-transform: none;
+}
+
+[data-transform=title] {
+  text-transform: capitalize;
+}
+
+[data-transform=upper] {
+  text-transform: uppercase;
+}
+
+[data-transform=lower] {
+  text-transform: lowercase;
+}
+
+/* Justify */
+
+[data-justify=start] {
+  justify-content: flex-start;
+}
+
+[data-justify=center] {
+  justify-content: center;
+}
+
+[data-justify=between] {
+  justify-content: space-between;
+}
+
+[data-justify=even] {
+  justify-content: space-evenly;
+}
+
+[data-justify=around] {
+  justify-content: space-around;
+}
+
+[data-justify=end] {
+  justify-content: flex-end;
+}
+
 /* Setting */
 
 html,
