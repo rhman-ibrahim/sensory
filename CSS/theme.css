@@ -342,7 +342,20 @@ table {
   --theme-600: var(--grey-600);
   --theme-700: var(--grey-700);
   --theme-800: var(--grey-800);
-  --theme-900: var(--grey-900);  
+  --theme-900: var(--grey-900);
+
+  /* Shadow */
+
+  --shadow-050: 0 1px 2px rgb(0 0 0 / 0.09), 0 4px 12px rgb(0 0 0 / 0.05);
+  --shadow-100: 0 1px 2px rgb(0 0 0 / 0.09), 0 4px 12px rgb(0 0 0 / 0.05);
+  --shadow-200: 0 1px 2px rgb(0 0 0 / 0.10), 0 4px 12px rgb(0 0 0 / 0.05);
+  --shadow-300: 0 1px 2px rgb(0 0 0 / 0.10), 0 4px 12px rgb(0 0 0 / 0.06);
+  --shadow-400: 0 1px 2px rgb(0 0 0 / 0.13), 0 4px 12px rgb(0 0 0 / 0.07);
+  --shadow-500: 0 1px 2px rgb(0 0 0 / 0.16), 0 4px 12px rgb(0 0 0 / 0.09);
+  --shadow-600: 0 1px 2px rgb(0 0 0 / 0.24), 0 4px 12px rgb(0 0 0 / 0.13);
+  --shadow-700: 0 1px 2px rgb(0 0 0 / 0.30), 0 4px 12px rgb(0 0 0 / 0.16);
+  --shadow-800: 0 0 0 1px rgb(255 255 255 / 0.05), 0 1px 2px rgb(0 0 0 / 0.50), 0 4px 12px rgb(0 0 0 / 0.27);
+  --shadow-900: 0 0 0 1px rgb(255 255 255 / 0.08), 0 1px 2px rgb(0 0 0 / 0.80), 0 4px 12px rgb(0 0 0 / 0.60);
 
   /* Rules */
 
@@ -363,6 +376,17 @@ table {
   --th-8: var(--theme-800);
   --th-9: var(--theme-900);
 
+  --sh-0: var(--shadow-050);
+  --sh-1: var(--shadow-100);
+  --sh-2: var(--shadow-200);
+  --sh-3: var(--shadow-300);
+  --sh-4: var(--shadow-400);
+  --sh-5: var(--shadow-500);
+  --sh-6: var(--shadow-600);
+  --sh-7: var(--shadow-700);
+  --sh-8: var(--shadow-800);
+  --sh-9: var(--shadow-900);
+
   /* Tech */
 
   --django: #092E20;
@@ -382,6 +406,17 @@ table {
   --th-7: var(--theme-200);
   --th-8: var(--theme-100);
   --th-9: var(--theme-050);
+
+  --sh-0: var(--shadow-900);
+  --sh-1: var(--shadow-800);
+  --sh-2: var(--shadow-700);
+  --sh-3: var(--shadow-600);
+  --sh-4: var(--shadow-500);
+  --sh-5: var(--shadow-400);
+  --sh-6: var(--shadow-300);
+  --sh-7: var(--shadow-200);
+  --sh-8: var(--shadow-100);
+  --sh-9: var(--shadow-050);
 
   /* Tech */
 
