@@ -427,6 +427,240 @@ table {
 
 }
 
+[data-theme-accent="red"] {
+  --acc-0: var(--red-050);
+  --acc-1: var(--red-100);
+  --acc-2: var(--red-200);
+  --acc-3: var(--red-300);
+  --acc-4: var(--red-400);
+  --acc-5: var(--red-500);
+  --acc-6: var(--red-600);
+  --acc-7: var(--red-700);
+  --acc-8: var(--red-800);
+  --acc-9: var(--red-900);
+}
+
+[data-theme-accent="pink"] {
+  --acc-0: var(--pink-050);
+  --acc-1: var(--pink-100);
+  --acc-2: var(--pink-200);
+  --acc-3: var(--pink-300);
+  --acc-4: var(--pink-400);
+  --acc-5: var(--pink-500);
+  --acc-6: var(--pink-600);
+  --acc-7: var(--pink-700);
+  --acc-8: var(--pink-800);
+  --acc-9: var(--pink-900);
+}
+
+[data-theme-accent="purple"] {
+  --acc-0: var(--purple-050);
+  --acc-1: var(--purple-100);
+  --acc-2: var(--purple-200);
+  --acc-3: var(--purple-300);
+  --acc-4: var(--purple-400);
+  --acc-5: var(--purple-500);
+  --acc-6: var(--purple-600);
+  --acc-7: var(--purple-700);
+  --acc-8: var(--purple-800);
+  --acc-9: var(--purple-900);
+}
+
+[data-theme-accent="deep-purple"] {
+  --acc-0: var(--deep-purple-050);
+  --acc-1: var(--deep-purple-100);
+  --acc-2: var(--deep-purple-200);
+  --acc-3: var(--deep-purple-300);
+  --acc-4: var(--deep-purple-400);
+  --acc-5: var(--deep-purple-500);
+  --acc-6: var(--deep-purple-600);
+  --acc-7: var(--deep-purple-700);
+  --acc-8: var(--deep-purple-800);
+  --acc-9: var(--deep-purple-900);
+}
+
+[data-theme-accent="indigo"] {
+  --acc-0: var(--indigo-050);
+  --acc-1: var(--indigo-100);
+  --acc-2: var(--indigo-200);
+  --acc-3: var(--indigo-300);
+  --acc-4: var(--indigo-400);
+  --acc-5: var(--indigo-500);
+  --acc-6: var(--indigo-600);
+  --acc-7: var(--indigo-700);
+  --acc-8: var(--indigo-800);
+  --acc-9: var(--indigo-900);
+}
+
+[data-theme-accent="blue"] {
+  --acc-0: var(--blue-050);
+  --acc-1: var(--blue-100);
+  --acc-2: var(--blue-200);
+  --acc-3: var(--blue-300);
+  --acc-4: var(--blue-400);
+  --acc-5: var(--blue-500);
+  --acc-6: var(--blue-600);
+  --acc-7: var(--blue-700);
+  --acc-8: var(--blue-800);
+  --acc-9: var(--blue-900);
+}
+
+[data-theme-accent="light-blue"] {
+  --acc-0: var(--light-blue-050);
+  --acc-1: var(--light-blue-100);
+  --acc-2: var(--light-blue-200);
+  --acc-3: var(--light-blue-300);
+  --acc-4: var(--light-blue-400);
+  --acc-5: var(--light-blue-500);
+  --acc-6: var(--light-blue-600);
+  --acc-7: var(--light-blue-700);
+  --acc-8: var(--light-blue-800);
+  --acc-9: var(--light-blue-900);
+}
+
+[data-theme-accent="cyan"] {
+  --acc-0: var(--cyan-050);
+  --acc-1: var(--cyan-100);
+  --acc-2: var(--cyan-200);
+  --acc-3: var(--cyan-300);
+  --acc-4: var(--cyan-400);
+  --acc-5: var(--cyan-500);
+  --acc-6: var(--cyan-600);
+  --acc-7: var(--cyan-700);
+  --acc-8: var(--cyan-800);
+  --acc-9: var(--cyan-900);
+}
+
+[data-theme-accent="teal"] {
+  --acc-0: var(--teal-050);
+  --acc-1: var(--teal-100);
+  --acc-2: var(--teal-200);
+  --acc-3: var(--teal-300);
+  --acc-4: var(--teal-400);
+  --acc-5: var(--teal-500);
+  --acc-6: var(--teal-600);
+  --acc-7: var(--teal-700);
+  --acc-8: var(--teal-800);
+  --acc-9: var(--teal-900);
+}
+
+[data-theme-accent="green"] {
+  --acc-0: var(--green-050);
+  --acc-1: var(--green-100);
+  --acc-2: var(--green-200);
+  --acc-3: var(--green-300);
+  --acc-4: var(--green-400);
+  --acc-5: var(--green-500);
+  --acc-6: var(--green-600);
+  --acc-7: var(--green-700);
+  --acc-8: var(--green-800);
+  --acc-9: var(--green-900);
+}
+
+[data-theme-accent="light-green"] {
+  --acc-0: var(--light-green-050);
+  --acc-1: var(--light-green-100);
+  --acc-2: var(--light-green-200);
+  --acc-3: var(--light-green-300);
+  --acc-4: var(--light-green-400);
+  --acc-5: var(--light-green-500);
+  --acc-6: var(--light-green-600);
+  --acc-7: var(--light-green-700);
+  --acc-8: var(--light-green-800);
+  --acc-9: var(--light-green-900);
+}
+
+[data-theme-accent="lime"] {
+  --acc-0: var(--lime-050);
+  --acc-1: var(--lime-100);
+  --acc-2: var(--lime-200);
+  --acc-3: var(--lime-300);
+  --acc-4: var(--lime-400);
+  --acc-5: var(--lime-500);
+  --acc-6: var(--lime-600);
+  --acc-7: var(--lime-700);
+  --acc-8: var(--lime-800);
+  --acc-9: var(--lime-900);
+}
+
+[data-theme-accent="yellow"] {
+  --acc-0: var(--yellow-050);
+  --acc-1: var(--yellow-100);
+  --acc-2: var(--yellow-200);
+  --acc-3: var(--yellow-300);
+  --acc-4: var(--yellow-400);
+  --acc-5: var(--yellow-500);
+  --acc-6: var(--yellow-600);
+  --acc-7: var(--yellow-700);
+  --acc-8: var(--yellow-800);
+  --acc-9: var(--yellow-900);
+}
+
+[data-theme-accent="amber"] {
+  --acc-0: var(--amber-050);
+  --acc-1: var(--amber-100);
+  --acc-2: var(--amber-200);
+  --acc-3: var(--amber-300);
+  --acc-4: var(--amber-400);
+  --acc-5: var(--amber-500);
+  --acc-6: var(--amber-600);
+  --acc-7: var(--amber-700);
+  --acc-8: var(--amber-800);
+  --acc-9: var(--amber-900);
+}
+
+[data-theme-accent="orange"] {
+  --acc-0: var(--orange-050);
+  --acc-1: var(--orange-100);
+  --acc-2: var(--orange-200);
+  --acc-3: var(--orange-300);
+  --acc-4: var(--orange-400);
+  --acc-5: var(--orange-500);
+  --acc-6: var(--orange-600);
+  --acc-7: var(--orange-700);
+  --acc-8: var(--orange-800);
+  --acc-9: var(--orange-900);
+}
+
+[data-theme-accent="deep-orange"] {
+  --acc-0: var(--deep-orange-050);
+  --acc-1: var(--deep-orange-100);
+  --acc-2: var(--deep-orange-200);
+  --acc-3: var(--deep-orange-300);
+  --acc-4: var(--deep-orange-400);
+  --acc-5: var(--deep-orange-500);
+  --acc-6: var(--deep-orange-600);
+  --acc-7: var(--deep-orange-700);
+  --acc-8: var(--deep-orange-800);
+  --acc-9: var(--deep-orange-900);
+}
+
+[data-theme-accent="brown"] {
+  --acc-0: var(--brown-050);
+  --acc-1: var(--brown-100);
+  --acc-2: var(--brown-200);
+  --acc-3: var(--brown-300);
+  --acc-4: var(--brown-400);
+  --acc-5: var(--brown-500);
+  --acc-6: var(--brown-600);
+  --acc-7: var(--brown-700);
+  --acc-8: var(--brown-800);
+  --acc-9: var(--brown-900);
+}
+
+[data-theme-accent="blue-grey"] {
+  --acc-0: var(--blue-grey-050);
+  --acc-1: var(--blue-grey-100);
+  --acc-2: var(--blue-grey-200);
+  --acc-3: var(--blue-grey-300);
+  --acc-4: var(--blue-grey-400);
+  --acc-5: var(--blue-grey-500);
+  --acc-6: var(--blue-grey-600);
+  --acc-7: var(--blue-grey-700);
+  --acc-8: var(--blue-grey-800);
+  --acc-9: var(--blue-grey-900);
+}
+
 body {
   scrollbar-width: none;
   scroll-behavior: smooth;
